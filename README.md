@@ -3,10 +3,10 @@
 Lean formalizations by **Wentao Li**, with AI assistance, of two known results
 recorded in Formal Conjectures.
 
-| Result | Lean proof | Argument and credits |
-| --- | --- | --- |
-| Gowers–Long square-size lower bound, arXiv:1609.08688 | [GowersLong.lean](LeanArxivProofs/GowersLong.lean) | [Proof](proofs/GowersLong/PROOF.md) · [Sources](proofs/GowersLong/SOURCE.md) |
-| Fischer's counterexample to TxGraffiti Conjecture 2, arXiv:2507.17780 | [TxGraffiti2.lean](LeanArxivProofs/TxGraffiti2.lean) | [Proof](proofs/TxGraffiti2/PROOF.md) · [Sources](proofs/TxGraffiti2/SOURCE.md) |
+| Result | Lean proof | Argument and credits | DeepMind PR |
+| --- | --- | --- | --- |
+| Gowers–Long square-size lower bound, arXiv:1609.08688 | [GowersLong.lean](LeanArxivProofs/GowersLong.lean) | [Proof](proofs/GowersLong/PROOF.md) · [Sources](proofs/GowersLong/SOURCE.md) | [#7251](https://github.com/google-deepmind/formal-conjectures/pull/7251) |
+| Fischer's counterexample to TxGraffiti Conjecture 2, arXiv:2507.17780 | [TxGraffiti2.lean](LeanArxivProofs/TxGraffiti2.lean) | [Proof](proofs/TxGraffiti2/PROOF.md) · [Sources](proofs/TxGraffiti2/SOURCE.md) | [#7252](https://github.com/google-deepmind/formal-conjectures/pull/7252) |
 
 The square-size construction is due to **W. T. Gowers and J. Long**. The
 formalization adapts the prior Lean construction and block lemmas from
