@@ -1,0 +1,7 @@
+{
+  "verified_utc": "2026-10-13T05:31:17.518839+00:00",
+  "status": "passed",
+  "build": "lake --wfail build LeanArxivProofs",
+  "consumer": "lake env lean -DwarningAsError=true scripts/Check.lean",
+  "proof_sources_identical_to_comparator_inputs": true
+}

@@ -1,0 +1,10 @@
+✔ [8951/8955] Built FormalConjectures.Arxiv.«2507.17780».«2» (22s)
+ℹ [8952/8955] Built LeanArxivProofs.TxGraffiti2 (38s)
+info: LeanArxivProofs/TxGraffiti2.lean:389:0: 'TxGraffitiC2.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanArxivProofs/TxGraffiti2.lean:390:0: 'TxGraffitiC2.conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanArxivProofs/TxGraffiti2.lean:391:0: 'TxGraffitiC2.acceptance' depends on axioms: [propext, Classical.choice, Quot.sound]
+ℹ [8953/8955] Built LeanArxivProofs.GowersLong (124s)
+info: LeanArxivProofs/GowersLong.lean:158:0: 'GowersLongLowerBound.maximalLength_ge_of_isSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanArxivProofs/GowersLong.lean:159:0: 'GowersLongLowerBound.acceptance' depends on axioms: [propext, Classical.choice, Quot.sound]
+✔ [8954/8955] Built LeanArxivProofs (68s)
+Build completed successfully (8955 jobs).

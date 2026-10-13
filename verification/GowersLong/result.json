@@ -1,0 +1,95 @@
+{
+  "status": "independently_verified",
+  "completed_utc": "2026-10-13T04:47:41.214199+00:00",
+  "baseline": "817d8a74e6bcd505ac8407388cc12ac3cfda3d0d",
+  "candidate_sha256": "a73c390fdc601a7bdd05198f1503c73beada89b56cb70cf0dc3f9ef3b18eb41f",
+  "source_sha256": "6736c6f6aef12154ab51b382f5e741bab9b0324e8e3d61a0de4d8c57ad46aed5",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "exact_statement": "Comparator matched two candidate declarations against aliases whose types are elaborated from the byte-identical frozen original theorem.",
+  "referenced_definitions": "Explicit registered definitions and recursively referenced theorem-type definitions matched.",
+  "transitive_axioms": "Comparator.checkAxioms passed on the exported proof closure.",
+  "kernel_replay": "Lean default kernel accepted the exported solution in a fresh empty environment; quotient post-checks passed.",
+  "prohibited_names_in_solution_export": {
+    "sorryAx": false,
+    "Lean.trustCompiler": false,
+    "Lean.ofReduceBool": false
+  },
+  "checker_scope": "Local pinned Lean 4.33.1 Comparator/exporter adapter and fresh-environment default-kernel replay. No official Linux sandbox or external independent kernel claim.",
+  "published_file": "LeanArxivProofs/GowersLong.lean",
+  "source_file": "FormalConjectures/Arxiv/1609.08688/sIncreasingrTuples.lean",
+  "comparator_commit": "ca04cfc72b550331658ec314bf47685281bfd4bf",
+  "exporter_commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+  "controls": {
+    "status": "passed",
+    "validated_utc": "2026-10-12T09:35:59.019326+00:00",
+    "controls": {
+      "pass": {
+        "expected": "passed",
+        "observed": "passed",
+        "expected_reason_observed": true,
+        "kernel_accepts": true,
+        "comparator_accepts": true
+      },
+      "mismatch": {
+        "expected": "failed",
+        "observed": "failed",
+        "expected_reason_observed": true,
+        "kernel_accepts": false,
+        "comparator_accepts": false
+      },
+      "axiom": {
+        "expected": "failed",
+        "observed": "failed",
+        "expected_reason_observed": true,
+        "kernel_accepts": false,
+        "comparator_accepts": false
+      },
+      "definition": {
+        "expected": "failed",
+        "observed": "failed",
+        "expected_reason_observed": true,
+        "kernel_accepts": false,
+        "comparator_accepts": false
+      }
+    }
+  },
+  "comparator": {
+    "status": "passed",
+    "duration_seconds": 363.73,
+    "kernel_accepts": true,
+    "comparator_accepts": true,
+    "challenge_export": {
+      "bytes": 1340819,
+      "sha256": "e67d268ccc5ccb2a983918cdaa85605791926ec031a1eeaa3b4aa09b17969e53"
+    },
+    "solution_export": {
+      "bytes": 24472537,
+      "sha256": "1f9f93d1344e58306ae20db5a53b5147e322e7a7683f5c3f1468b66689009ff9"
+    }
+  },
+  "comparison_config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Solution",
+    "build_modules": [
+      "Solution"
+    ],
+    "theorem_names": [
+      "GowersLongLowerBound.maximalLength_ge_of_isSquare",
+      "GowersLongLowerBound.acceptance"
+    ],
+    "definition_names": [
+      "Arxiv.\u00ab1609.08688\u00bb.lt\u2082",
+      "Arxiv.\u00ab1609.08688\u00bb.IsIncreasing\u2082",
+      "Arxiv.\u00ab1609.08688\u00bb.maximalLength"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}

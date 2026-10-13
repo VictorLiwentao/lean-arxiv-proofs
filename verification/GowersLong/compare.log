@@ -1,0 +1,9 @@
+Compile Solution
+'GowersLongLowerBound.maximalLength_ge_of_isSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GowersLongLowerBound.acceptance' depends on axioms: [propext, Classical.choice, Quot.sound]
+Export challenge
+Export solution
+Compare types, definitions, axioms and replay kernel
+Running Lean default kernel on solution.
+Lean default kernel accepts the solution
+Your solution is okay!

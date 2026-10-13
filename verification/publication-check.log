@@ -1,0 +1,4 @@
+'GowersLongLowerBound.maximalLength_ge_of_isSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'GowersLongLowerBound.acceptance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TxGraffitiC2.conjecture' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TxGraffitiC2.acceptance' depends on axioms: [propext, Classical.choice, Quot.sound]

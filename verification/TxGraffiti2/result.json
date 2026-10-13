@@ -1,0 +1,107 @@
+{
+  "status": "independently_verified",
+  "completed_utc": "2026-10-13T04:47:41.214199+00:00",
+  "baseline": "817d8a74e6bcd505ac8407388cc12ac3cfda3d0d",
+  "candidate_sha256": "d4e0efaeff581e29cd838f0e7d9e5b52b05ce882dd0b3818dba3546de01be1bc",
+  "source_sha256": "5bc0628ba5b8ddca5f8fd767b32ae79f4213700102d0940ddf764c1561f09c39",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "exact_statement": "Comparator matched two candidate declarations against aliases whose types are elaborated from the byte-identical frozen original theorem.",
+  "referenced_definitions": "Explicit registered definitions and recursively referenced theorem-type definitions matched.",
+  "transitive_axioms": "Comparator.checkAxioms passed on the exported proof closure.",
+  "kernel_replay": "Lean default kernel accepted the exported solution in a fresh empty environment; quotient post-checks passed.",
+  "prohibited_names_in_solution_export": {
+    "sorryAx": false,
+    "Lean.trustCompiler": false,
+    "Lean.ofReduceBool": false
+  },
+  "checker_scope": "Local pinned Lean 4.33.1 Comparator/exporter adapter and fresh-environment default-kernel replay. No official Linux sandbox or external independent kernel claim.",
+  "published_file": "LeanArxivProofs/TxGraffiti2.lean",
+  "source_file": "FormalConjectures/Arxiv/2507.17780/2.lean",
+  "comparator_commit": "ca04cfc72b550331658ec314bf47685281bfd4bf",
+  "exporter_commit": "cacf989bd75f608700820f6afc595f32e7a99a4d",
+  "controls": {
+    "status": "passed",
+    "validated_utc": "2026-10-12T09:35:59.019326+00:00",
+    "controls": {
+      "pass": {
+        "expected": "passed",
+        "observed": "passed",
+        "expected_reason_observed": true,
+        "kernel_accepts": true,
+        "comparator_accepts": true
+      },
+      "mismatch": {
+        "expected": "failed",
+        "observed": "failed",
+        "expected_reason_observed": true,
+        "kernel_accepts": false,
+        "comparator_accepts": false
+      },
+      "axiom": {
+        "expected": "failed",
+        "observed": "failed",
+        "expected_reason_observed": true,
+        "kernel_accepts": false,
+        "comparator_accepts": false
+      },
+      "definition": {
+        "expected": "failed",
+        "observed": "failed",
+        "expected_reason_observed": true,
+        "kernel_accepts": false,
+        "comparator_accepts": false
+      }
+    }
+  },
+  "comparator": {
+    "status": "passed",
+    "duration_seconds": 460.96,
+    "kernel_accepts": true,
+    "comparator_accepts": true,
+    "challenge_export": {
+      "bytes": 16545180,
+      "sha256": "85a541b7ccea5b7a6137ec9cbb123b07f3a24ee0055a25bb973240685adb1748"
+    },
+    "solution_export": {
+      "bytes": 26408381,
+      "sha256": "0592308c3eaf6da79dbd26cd63cb5ce50eb0ceb7604c3c397f47eacfa9d95100"
+    }
+  },
+  "comparison_config": {
+    "challenge_module": "Challenge",
+    "solution_module": "Solution",
+    "build_modules": [
+      "Challenge",
+      "Candidate",
+      "Solution"
+    ],
+    "theorem_names": [
+      "TxGraffitiC2.conjecture",
+      "TxGraffitiC2.acceptance"
+    ],
+    "definition_names": [
+      "Arxiv.\u00ab2507.17780\u00bb.zeroForcingStep",
+      "Arxiv.\u00ab2507.17780\u00bb.zeroForcingClosure",
+      "Arxiv.\u00ab2507.17780\u00bb.IsZeroForcingSet",
+      "Arxiv.\u00ab2507.17780\u00bb.zeroForcingNumber"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  },
+  "source_graph_check": {
+    "source_url": "https://arxiv.org/src/2607.23664v1/anc/H24.g6",
+    "source_sha256": "464a3729ad019299c1e0ad392be5d98b77ee624de6492ebf230e94fe63ef66ec",
+    "vertices": 24,
+    "edges": 30,
+    "graph6_matches_Lean_adjacency_under_explicit_relabeling": true,
+    "relabeling": "(j,0) -> j; (j,k) -> 2+7*j+k for k>0",
+    "method": "Independent upper-triangle graph6 decoder and direct edge construction; no worker script executed."
+  }
+}

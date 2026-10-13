@@ -1,0 +1,207 @@
+{
+  "checked_utc": "2026-10-13T05:26:17.999390+00:00",
+  "results": [
+    {
+      "query": "\"1609.08688\"",
+      "total_count": 5,
+      "items": [
+        {
+          "number": 5347,
+          "title": "Arxiv/1609.08688: fix five misformalisations in sIncreasingrTuples",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/5347",
+          "merged_at": "2026-09-13T17:24:07Z"
+        },
+        {
+          "number": 4616,
+          "title": "feat(Arxiv/1609.08688): prove the n\u00b2 upper bound for 2-increasing sequences",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4616",
+          "merged_at": "2026-07-25T13:57:43Z"
+        },
+        {
+          "number": 4207,
+          "title": "feat(Arxiv/1609.08688): prove `exists_pair_of_mem_Icc`",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4207",
+          "merged_at": "2026-06-12T11:29:21Z"
+        },
+        {
+          "number": 3272,
+          "title": "solve(Arxiv): formally solved maximalLength bounds in sIncreasingrTuples",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/3272",
+          "merged_at": null
+        },
+        {
+          "number": 2751,
+          "title": "solve(Arxiv): formally solved maximalLength bounds in sIncreasingrTuples",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/2751",
+          "merged_at": null
+        }
+      ]
+    },
+    {
+      "query": "maximalLength_ge_of_isSquare",
+      "total_count": 2,
+      "items": [
+        {
+          "number": 3272,
+          "title": "solve(Arxiv): formally solved maximalLength bounds in sIncreasingrTuples",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/3272",
+          "merged_at": null
+        },
+        {
+          "number": 2751,
+          "title": "solve(Arxiv): formally solved maximalLength bounds in sIncreasingrTuples",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/2751",
+          "merged_at": null
+        }
+      ]
+    },
+    {
+      "query": "\"Gowers\" \"Long\"",
+      "total_count": 7,
+      "items": [
+        {
+          "number": 7052,
+          "title": "Add an integer formulation of the strong maximal-length bound",
+          "state": "open",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/7052",
+          "merged_at": null
+        },
+        {
+          "number": 6300,
+          "title": "Add Erd\u0151s Problem 179 (short progressions forcing long progressions), link the formal proof",
+          "state": "open",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6300",
+          "merged_at": null
+        },
+        {
+          "number": 4400,
+          "title": "feat(GreensOpenProblems): 55",
+          "state": "open",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4400",
+          "merged_at": null
+        },
+        {
+          "number": 4714,
+          "title": "Formalize Green's Open Problem 88",
+          "state": "open",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4714",
+          "merged_at": null
+        },
+        {
+          "number": 4616,
+          "title": "feat(Arxiv/1609.08688): prove the n\u00b2 upper bound for 2-increasing sequences",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4616",
+          "merged_at": "2026-07-25T13:57:43Z"
+        },
+        {
+          "number": 4458,
+          "title": "feat(GreensOpenProblems/5): largest product-free sets in finite groups",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4458",
+          "merged_at": "2026-07-22T13:27:39Z"
+        },
+        {
+          "number": 5494,
+          "title": "fix(GreensOpenProblems/49): allow the factor 2 in the number of translates",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/5494",
+          "merged_at": "2026-09-10T16:53:56Z"
+        }
+      ]
+    },
+    {
+      "query": "tx_graffiti_conjecture_2",
+      "total_count": 1,
+      "items": [
+        {
+          "number": 6783,
+          "title": "Mark TxGraffiti Conjecture 2 as false",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6783",
+          "merged_at": "2026-10-07T21:26:51Z"
+        }
+      ]
+    },
+    {
+      "query": "\"2507.17780\"",
+      "total_count": 3,
+      "items": [
+        {
+          "number": 6625,
+          "title": "fix: add missing module and @[expose] public section headers",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6625",
+          "merged_at": "2026-09-27T11:51:01Z"
+        },
+        {
+          "number": 6156,
+          "title": "Restore native_decide proofs dropped during modulization",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6156",
+          "merged_at": "2026-09-27T11:39:30Z"
+        },
+        {
+          "number": 4278,
+          "title": "feat(Arxiv/2507.17780): refute TxGraffiti Conjecture 4",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4278",
+          "merged_at": "2026-09-20T16:02:39Z"
+        }
+      ]
+    },
+    {
+      "query": "\"2607.23664\"",
+      "total_count": 1,
+      "items": [
+        {
+          "number": 6783,
+          "title": "Mark TxGraffiti Conjecture 2 as false",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6783",
+          "merged_at": "2026-10-07T21:26:51Z"
+        }
+      ]
+    },
+    {
+      "query": "\"zero forcing\" \"independence\"",
+      "total_count": 1,
+      "items": [
+        {
+          "number": 6783,
+          "title": "Mark TxGraffiti Conjecture 2 as false",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6783",
+          "merged_at": "2026-10-07T21:26:51Z"
+        }
+      ]
+    },
+    {
+      "query": "TxGraffiti",
+      "total_count": 2,
+      "items": [
+        {
+          "number": 6783,
+          "title": "Mark TxGraffiti Conjecture 2 as false",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/6783",
+          "merged_at": "2026-10-07T21:26:51Z"
+        },
+        {
+          "number": 4278,
+          "title": "feat(Arxiv/2507.17780): refute TxGraffiti Conjecture 4",
+          "state": "closed",
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4278",
+          "merged_at": "2026-09-20T16:02:39Z"
+        }
+      ]
+    }
+  ]
+}
